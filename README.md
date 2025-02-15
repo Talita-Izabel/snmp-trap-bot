@@ -5,7 +5,7 @@ Este projeto é um sistema de monitoramento que utiliza **SNMP (Simple Network M
 ## Funcionalidades
 
 ### 1. **Monitoramento de Interfaces de Rede**
-   - Verifica o status de interfaces de rede (por exemplo, `eth0`, `wlan0`).
+   - Verifica o status de interfaces de rede (por exemplo, `enp3s0`, `eth0`, `wlan0`).
    - Envia uma notificação via Telegram se uma interface cair (status `down`).
 
 ### 2. **Monitoramento de Espaço de Armazenamento**
