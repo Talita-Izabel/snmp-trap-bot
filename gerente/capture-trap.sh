@@ -13,6 +13,11 @@ while read line; do
         MESSAGE=$(echo "$line" | awk -F 'NET-SNMP-EXAMPLES-MIB::netSnmpExampleHeartbeatName ' '{print $2}')
         echo "$(date): $MESSAGE" >> "$LOG_FILE"
     fi
+
+    if [[ "$line" == *"Uso do HD acima de 80%"* ]]; then 
+        MESSAGE=$(echo "$line" | awk -F 'Uso do HD acima de 80%' '{print $2}') 
+        /root/gerencia/bot-telegram.sh "🚨 Uso do HD acima de 80%! ${MESSAGE}" 
+    fi 
 done
 
 #sudo /root/trabalho-gerencia/bot-telegram.sh "$MESSAGE"

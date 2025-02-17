@@ -32,7 +32,7 @@ CHAT_ID=seu_chat_id_aqui
 
 ## Documentação
 
-Para um guia detalhado de configuração do SNMP, consulte o [Relatório de Configuração do SNMP](https://github.com/Talita-Izabel/snmp-trap-bot/relatorio-snmp-trap.pdf).
+Para um guia detalhado de configuração do SNMP, consulte o [Relatório de Configuração do SNMP](https://github.com/Talita-Izabel/snmp-trap-bot/blob/main/relatorio-snmp-trap.pdf).
 
 ## Projetos Relacionados
 
